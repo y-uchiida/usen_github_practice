@@ -1,0 +1,17 @@
+git init //ローカルリポジトリを作成
+git add ファイル名//インデックスにファイルを追加
+git commit //インデックスの内容をコミット
+git status //コミットやプッシュなどの状況を確認
+git log //ローカルで作成してコミットしたものを表示
+git log -p //ローカルで作成してコミットしたものの詳細を表示
+git branch -m 古いブランチ名 新しいブランチ名 //そのまま
+git branch -m 新しいブランチ名 //現在使用しているブランチの名前を変更
+git remote add リポジトリ名(originなど) アドレス //リモートリポジトリにアクセス
+git push リポジトリ名 ブランチ名 //そのまま
+git reset --soft HEAD^ //最も新しい更新を基に戻す(おそらくsoftのところをmixedやhardにする)
+git checkout ブランチ名 //ブランチを変更
+git checkout -b ブランチ名 //ブランチを新しく作成して変更
+
+
+
+コマンドがlinux環境なの助かる
