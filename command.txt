@@ -11,7 +11,7 @@ git push リポジトリ名 ブランチ名 //そのまま
 git reset --soft HEAD^ //最も新しい更新を基に戻す(おそらくsoftのところをmixedやhardにする)
 git checkout ブランチ名 //ブランチを変更
 git checkout -b ブランチ名 //ブランチを新しく作成して変更
-
+git merge ブランチ名 //マージしたいブランチで実行
 
 
 コマンドがlinux環境なの助かる
